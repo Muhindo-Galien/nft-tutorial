@@ -11,4 +11,7 @@ module.exports = {
       chainId: 44787,
     },
   },
+  mocha: {
+    timeout: 500000, // 500 seconds max for running tests
+}
 };
